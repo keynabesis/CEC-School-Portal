@@ -1,0 +1,7 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Database access is through the authenticated Node.js backend only.
+    match /{document=**} { allow read, write: if false; }
+  }
+}
