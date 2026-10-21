@@ -216,12 +216,7 @@ a:focus-visible {
   .actions {
     margin-top: 28px;
   }
-  .social-buttons {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    gap: 10px;
-  }
+
   .button {
     max-width: 100%;
   }
